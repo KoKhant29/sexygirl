@@ -49,7 +49,7 @@ function App() {
       <img src={require('./three.png')} className="img" alt="xmaster" />
       <div class="dia">
       <p></p> 
-      <h>Xmaser</h>
+      <h>Xmaster</h>
 </div>
       
       
