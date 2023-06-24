@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  align-items : center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .img {
+    animation: App-logo-spin infinite linear;
+  }
+}*{
+color : #13fafa  ;
+}
+
+.App-header {
+  background-color: #025c5c ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}.bor{
+background-color :   #025c5c  ;
+padding : 10px;
+color : black;
+border-radius : 10px;
+}
+.img{
+width : 190px;
+border-radius : 20%;
+box-shadow : 2px 2px 2px black,3px 3px 3px  #13fafa ,5px 5px 5px  #13fafa ;
+}h{
+text-shadow : 2px 2px red,2px 2px orange,2px 2px green,2px 2px gold;
+}
+.main{
+padding : 20px;
+border : 2px solid black;
+display : grid;
+grid-template-columns : repeat(3,25
+0px);
+justify-content : center;
+gap : 30px;
+
+
+
+}@media (max-width : 1000px){
+.main{
+grid-template-columns : repeat(3,250px);
+  }
+}@media (max-width : 500px){
+.main{
+grid-template-columns : repeat(1,250px);
+ }
+}.box {
+border : 2px solid #13fafa;
+border-radius : 15px;
+padding : 25px;
+}.dia{
+
+justify-content : bottom;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
